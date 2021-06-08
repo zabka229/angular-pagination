@@ -1,3 +1,3 @@
 import { Observable } from "rxjs";
 
-export type CallbackFunction = (filters: Record<string, any>) => Observable<any>;
+export type CallbackFunction = (filters: any) => Observable<any>;
